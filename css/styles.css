@@ -1,0 +1,16 @@
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 200px;
+    background-image: url('../img/sloy_4_23.png'); /* Замените 'path/to/your/icon.png' на путь к вашему PNG-изображению */
+    background-size: 20px; /* Укажите размер иконки в пикселях */
+    background-repeat: no-repeat;
+    background-position: 90% 50%; /* Расположение иконки (слева от текста) */
+    background-color: #007bff; /* Здесь можно задать цвет фона кнопки */
+    color: #fff; /* Здесь можно задать цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

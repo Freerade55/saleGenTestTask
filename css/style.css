@@ -1,0 +1,382 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+
+.main {
+    color: white;
+    width: 235px;
+    height: 70px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+
+
+
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.popup {
+
+    display: none;
+
+
+    padding: 54px 50px 0 50px;
+
+    width: 909px;
+    background-color: #ffffff;
+    border-radius: 27px;
+    z-index: 9999;
+
+}
+.main_title_mob {
+    display: none;
+}
+
+.img_mob {
+    display: none;
+}
+
+.doc_elements_mob {
+    display: none;
+}
+
+.cross_wrapper{
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: -50px;
+    right: -20px;
+    cursor: pointer;
+    font-size: 32px;
+    color: red;
+}
+
+.main_title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+
+}
+.main_title_mob {
+    display: none;
+    text-align: center;
+}
+
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+
+
+
+
+}
+
+
+
+.wrapper_form {
+    width: 350px;
+
+}
+
+
+
+
+
+.doc_elements {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_imgs {
+    margin-top: 23px;
+    position: relative;
+    height: 299px;
+
+
+
+}
+
+.phone {
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 3;
+
+}
+
+.book_middle {
+
+
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    z-index: 2;
+
+
+}
+
+.book_bottom {
+
+    position: absolute;
+    bottom: 3px;
+    left: 35px;
+    z-index: 1;
+
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 15px;
+
+    font-weight: bold;
+    color: #000000;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 52px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+}
+
+.button_subm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 350px;
+    height: 71px;
+    background: url('../img/sloy_4_23.png') no-repeat 95% 60%, linear-gradient(0.0deg, #3cc36d -23%, #37db73 125%);
+    box-shadow: 0 -5px 0 0 rgba(0, 0, 0, 0.12) inset;
+    background-size: 40px; /* Укажите размер иконки в пикселях */
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+
+.par {
+    display: flex;
+
+    justify-content: space-around;
+    width: 100%;
+
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #808080;
+}
+
+
+
+
+@media (max-width: 910px) {
+
+
+    .popup {
+
+        padding: 10px 33px 30px 28px;
+
+        width: 320px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        z-index: 9999;
+
+    }
+
+
+    .close-button {
+        position: absolute;
+        top: 0;
+        right: -10px;
+        cursor: pointer;
+        font-size: 18px;
+        color: red;
+    }
+
+    .container  {
+        padding-top: 154px;
+        position: relative;
+        display: block;
+
+
+    }
+
+
+
+    .img_mob {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        z-index: -1;
+
+
+    }
+
+    .doc_elements_mob {
+        display: flex;
+        width: 270px;
+        justify-content: space-between;
+
+    }
+
+
+
+
+
+    .main_title {
+        display: none;
+    }
+
+    .main_title_mob {
+        display: block;
+        margin-top: 27px;
+
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #000000;
+
+    }
+
+
+
+
+    .wrapper_files {
+        display: none;
+    }
+
+
+    .wrapper_form {
+        width: auto;
+
+    }
+
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-size: 13px;
+
+        font-weight: 700;
+        color: #000000;
+    }
+
+    input {
+        margin-bottom: 10px;
+        width: 282px;
+        height: 43px;
+        border: 1px solid #a0a0a0;
+        border-radius: 5px;
+    }
+
+    .button_subm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        width: 282px;
+        height: 58px;
+        background: url('../img/sloy_4_23.png') no-repeat 95% 60%, linear-gradient(0.0deg, #3cc36d -23%, #37db73 125%);
+        box-shadow: 0 -5px 0 0 rgba(0, 0, 0, 0.12) inset;
+        background-size: 30px; /* Укажите размер иконки в пикселях */
+        border: none;
+        border-radius: 5px;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+
+
+    }
+
+
+    .par {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

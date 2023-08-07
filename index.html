@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<button class="main" onclick="openPopup()" id="openButton">Кликни</button>
+
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+
+    <div class="cross_wrapper">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+    </div>
+
+
+    <h1 class="main_title">Получите набор файлов <br>
+        для руководителя:</h1>
+
+
+
+    <div class="container">
+
+
+        <img src="img/mob/layers.png" alt="img" class="img_mob">
+
+        <div class="doc_elements_mob">
+            <img src="img/mob/sloy_7_46.png" alt="doc">
+            <img src="img/mob/sloy_6_45.png" alt="xls">
+            <img src="img/mob/sloy_5_40.png" alt="pdf">
+            <img src="img/mob/sloy_5_40.png" alt="pdf">
+            <img src="img/mob/sloy_5_40.png" alt="pdf">
+            <img src="img/mob/sloy_5_40.png" alt="pdf">
+            <img src="img/mob/sloy_5_40.png" alt="pdf">
+
+        </div>
+
+
+
+        <h1 class="main_title_mob">
+            Получите набор файлов
+            для руководителя:
+        </h1>
+
+
+
+        <div class="wrapper_files">
+
+            <div class="doc_elements">
+                <img src="img/sloy_7_26.png" alt="doc">
+                <img src="img/sloy_6_25.png" alt="xls">
+                <img src="img/sloy_5_24.png" alt="pdf">
+                <img src="img/sloy_5_24.png" alt="pdf">
+                <img src="img/sloy_5_24.png" alt="pdf">
+                <img src="img/sloy_5_24.png" alt="pdf">
+                <img src="img/sloy_5_24.png" alt="pdf">
+            </div>
+
+            <div class="wrapper_imgs">
+
+                <img src="img/sloy_1_5.png" alt="phone" class="phone">
+                <img src="img/sloy_8_35.png" alt="book_middle" class="book_middle">
+                <img src="img/sloy_2_6.png" alt="book_bottom" class="book_bottom">
+
+            </div>
+
+        </div>
+
+        <div class="wrapper_form">
+
+            <form id="myForm">
+
+                <label for="email">Введите Email для получения файлов:</label>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <label for="phone">Введите телефон для подтверждения доступа:</label>
+                <input type="text" id="phone" name="phone" placeholder="+7 (000) 000-00-00" required>
+                <button type="submit" class="button_subm">Скачать файлы</button>
+
+
+            </form>
+
+            <div class="par">
+                <div class="div">PDF 4,7 MB</div>
+                <div class="div">DOC 0,8 MB</div>
+                <div class="div">XLS 1,2 MB</div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://unpkg.com/imask"></script>
+<script src="js/form.js"></script>
+<script src="js/script.js"></script>
+
+
+
+
+
+</body>
+</html>
